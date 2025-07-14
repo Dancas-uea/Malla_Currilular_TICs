@@ -1,0 +1,83 @@
+[
+  {
+    "semestre": "Primer Semestre",
+    "materias": [
+      { "nombre": "Fundamentos de Tecnologías de la Información", "creditos": 3, "prerrequisitos": [] },
+      { "nombre": "Fundamentos de Programación", "creditos": 3, "prerrequisitos": [] },
+      { "nombre": "Matemática I", "creditos": 3, "prerrequisitos": [] },
+      { "nombre": "Física I", "creditos": 2, "prerrequisitos": [] },
+      { "nombre": "Redacción de Informes Técnicos", "creditos": 3, "prerrequisitos": [] },
+      { "nombre": "Realidad Nacional", "creditos": 1, "prerrequisitos": [] }
+    ]
+  },
+  {
+    "semestre": "Segundo Semestre",
+    "materias": [
+      { "nombre": "Matemática II", "creditos": 3, "prerrequisitos": ["Matemática I"] },
+      { "nombre": "Física II", "creditos": 3, "prerrequisitos": ["Física I"] },
+      { "nombre": "Estadística", "creditos": 3, "prerrequisitos": ["Matemática I"] },
+      { "nombre": "Fundamentos de Sistemas Digitales", "creditos": 3, "prerrequisitos": ["Fundamentos de Tecnologías de la Información"] },
+      { "nombre": "Programación Orientada a Objetos", "creditos": 3, "prerrequisitos": ["Fundamentos de Programación"] }
+    ]
+  },
+  {
+    "semestre": "Tercer Semestre",
+    "materias": [
+      { "nombre": "Estructura de Datos", "creditos": 3, "prerrequisitos": ["Programación Orientada a Objetos"] },
+      { "nombre": "Bases de Datos", "creditos": 3, "prerrequisitos": ["Fundamentos de Programación"] },
+      { "nombre": "Sistemas Digitales", "creditos": 3, "prerrequisitos": ["Fundamentos de Sistemas Digitales"] },
+      { "nombre": "Instalaciones Eléctricas y de Cableado Estructurado", "creditos": 3, "prerrequisitos": ["Física II"] },
+      { "nombre": "Metodología de la Investigación", "creditos": 3, "prerrequisitos": ["Redacción de Informes Técnicos"] }
+    ]
+  },
+  {
+    "semestre": "Cuarto Semestre",
+    "materias": [
+      { "nombre": "Administración de Sistemas Operativos", "creditos": 3, "prerrequisitos": ["Sistemas Digitales"] },
+      { "nombre": "Sistemas Operativos", "creditos": 3, "prerrequisitos": ["Administración de Sistemas Operativos"] },
+      { "nombre": "Redes de Computadoras", "creditos": 3, "prerrequisitos": ["Sistemas Digitales"] },
+      { "nombre": "Emprendimiento", "creditos": 3, "prerrequisitos": ["Metodología de la Investigación"] },
+      { "nombre": "Redacción Científica", "creditos": 3, "prerrequisitos": ["Metodología de la Investigación"] }
+    ]
+  },
+  {
+    "semestre": "Quinto Semestre",
+    "materias": [
+      { "nombre": "Administración de Bases de Datos", "creditos": 3, "prerrequisitos": ["Bases de Datos"] },
+      { "nombre": "Ingeniería de Software", "creditos": 3, "prerrequisitos": ["Estructura de Datos"] },
+      { "nombre": "Aplicaciones Móviles", "creditos": 3, "prerrequisitos": ["Programación Orientada a Objetos"] },
+      { "nombre": "Sistemas Embebidos", "creditos": 4, "prerrequisitos": ["Sistemas Digitales"] },
+      { "nombre": "Deontología de la Praxis Profesional", "creditos": 2, "prerrequisitos": [] }
+    ]
+  },
+  {
+    "semestre": "Sexto Semestre",
+    "materias": [
+      { "nombre": "Interacción Humano - Computador", "creditos": 3, "prerrequisitos": ["Ingeniería de Software"] },
+      { "nombre": "Tecnologías de Conmutación y Enrutamiento", "creditos": 3, "prerrequisitos": ["Redes de Computadoras"] },
+      { "nombre": "Desarrollo de Aplicaciones Web", "creditos": 3, "prerrequisitos": ["Ingeniería de Software"] },
+      { "nombre": "Redes Inalámbricas de Sensores", "creditos": 3, "prerrequisitos": ["Redes de Computadoras"] },
+      { "nombre": "Prácticas de Servicio Comunitario", "creditos": 3, "prerrequisitos": ["Aprobar al menos 60 créditos"] }
+    ]
+  },
+  {
+    "semestre": "Séptimo Semestre",
+    "materias": [
+      { "nombre": "Sistemas Distribuidos", "creditos": 3, "prerrequisitos": ["Redes de Computadoras"] },
+      { "nombre": "Minería de Datos", "creditos": 3, "prerrequisitos": ["Bases de Datos"] },
+      { "nombre": "Escalabilidad de Redes", "creditos": 3, "prerrequisitos": ["Redes de Computadoras"] },
+      { "nombre": "Legislación Informática", "creditos": 2, "prerrequisitos": [] },
+      { "nombre": "Prácticas Laborales I", "creditos": 1, "prerrequisitos": ["Aprobar al menos 60 créditos"] },
+      { "nombre": "Gestión de Proyecto TI", "creditos": 3, "prerrequisitos": ["Ingeniería de Software"] }
+    ]
+  },
+  {
+    "semestre": "Octavo Semestre",
+    "materias": [
+      { "nombre": "Gestión y Gobierno de TI", "creditos": 3, "prerrequisitos": ["Ingeniería de Software"] },
+      { "nombre": "Seguridad Informática", "creditos": 3, "prerrequisitos": ["Redes de Computadoras"] },
+      { "nombre": "Unidad de Titulación", "creditos": 6, "prerrequisitos": ["Aprobar todas las asignaturas anteriores"] },
+      { "nombre": "Prácticas Laborales II", "creditos": 3, "prerrequisitos": ["Prácticas Laborales I"] }
+    ]
+  }
+]
